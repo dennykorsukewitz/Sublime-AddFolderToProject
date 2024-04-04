@@ -110,7 +110,7 @@ If not, it asks whether this path should be saved.
 
 These functions are accessible through the context menu and the sidebar menu, making it easy to manage your project's folders without leaving your editor.
 
-### Context
+### Context Menu
 
 The following functions are available in the Context menu:
 
@@ -126,7 +126,7 @@ The following functions are available in the Context menu:
 
 ![Context-Menu](doc/images/Context-Menu.gif)
 
-### Sidebar
+### Sidebar Menu
 
 The following functions are available in the Sidebar menu:
 
