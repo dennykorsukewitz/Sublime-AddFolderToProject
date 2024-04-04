@@ -1,0 +1,23 @@
+⭐ Congratulations ⭐
+
+**AddFolderToProject** is a Sublime Text package that streamlines the process of adding and removing folders to and from your projects. It provides a set of commands and context menu options to manage your project's folder structure directly from the editor.
+
+    Of course, you can use the already built-in function (Project -> Add Folder to Project...).
+    But then you have to click through all the folders again and again.
+
+Enjoy!
+
+Your [Denny Korsukéwitz](https://github.com/dennykorsukewitz) 🚀
+
+-------------------
+
+🌟 Version 2.0.0 🌟 - Feature List
+
+ - Add Folder to Project: This function provides a searchable list of folders that can be added to the current project. The list consists of absolute paths and recursive paths.
+ - Remove Folder from Project: This function provides a list of active folders in the project, that can be removed from the current project.
+ - Add Custom Folder to Project: This function allows you to add a custom folder (absolute path) to the project.
+ - Add this Folder to Project: This function adds the folder of the current open file to the project.
+ - Remove this Folder from Project: This function removes the folder of the current open file from the project.
+ - Create Project from File: This function creates a new project (new sublime window) with the folder of the current open file.
+ - Copy File Path: This function copies the file path of the current open file.
+ - Copy Dir Path: This function copies the directory path of the current open file.

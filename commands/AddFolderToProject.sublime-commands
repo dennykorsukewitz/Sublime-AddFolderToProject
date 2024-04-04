@@ -1,0 +1,34 @@
+[
+    {
+        "caption": "AddFolderToProject: Add Folder to Project",
+        "command": "add_folder_to_project"
+    },
+    {
+        "caption": "AddFolderToProject: Remove Folder from Project",
+        "command": "remove_folder_from_project"
+    },
+    {
+        "caption": "AddFolderToProject: Add Custom Folder to Project",
+        "command": "add_custom_folder_to_project"
+    },
+    {
+        "caption": "AddFolderToProject: Add this Folder to Project",
+        "command": "add_current_folder_to_project"
+    },
+    {
+        "caption": "AddFolderToProject: Remove this Folder from Project",
+        "command": "remove_current_folder_from_project"
+    },
+    {
+        "caption": "AddFolderToProject: Create Project from File",
+        "command": "create_project_from_file"
+    },
+    {
+        "caption": "AddFolderToProject: Copy File Path",
+        "command": "copy_file_path"
+    },
+    {
+        "caption": "AddFolderToProject: Copy Dir Path",
+        "command": "copy_dir_path"
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Add Folder to Project",
+                        "children":
+                        [
+                            {
+                                "caption": "README",
+                                "command": "open_file",
+                                "args":
+                                {
+                                    "file": "${packages}/AddFolderToProject/README.md"
+                                }
+                            },
+                            {
+                                "caption": "Settings",
+                                "command": "edit_settings",
+                                "args":
+                                {
+                                    "base_file": "${packages}/AddFolderToProject/AddFolderToProject.sublime-settings",
+                                    "default": "{\n$0\n}\n"
+                                },
+                            },
+                            {
+                                "caption": "Key Bindings",
+                                "command": "edit_settings",
+                                "args":
+                                {
+                                    "base_file": "${packages}/AddFolderToProject/Default.sublime-keymap",
+                                    "default": "{\n$0\n}\n"
+                                },
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+]
