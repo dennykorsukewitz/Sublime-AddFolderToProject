@@ -3,7 +3,7 @@ repository:
   name: Sublime-AddFolderToProject
 
   # A short description of the repository that will show up on GitHub
-  description: This package adds / removes the selected folder to / from the project.
+  description: This package streamlines the process of adding and removing folders to and from your projects. It provides a set of commands and context menu options to manage your project's folder structure directly from the editor.
 
   # A URL with more information about the repository
   homepage: https://dennykorsukewitz.github.io/Sublime-AddFolderToProject/
@@ -12,7 +12,7 @@ repository:
   topics: pages, metrics-sublime, extension, package, sublime, folder, project, workflow, helper
 
   # Either `true` to make the repository private, or `false` to make it public.
-  private: true
+  private: false
 
   # Either `true` to enable issues for this repository, `false` to disable them.
   has_issues: true
