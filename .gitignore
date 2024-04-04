@@ -1,3 +1,4 @@
 *.sublime-package
 *.pyc
+package-metadata.json
 TODO.md
