@@ -10,6 +10,7 @@
 ```
 
 ---
+
 ## Note
 
 This package is a `rewrite` of the existing package `AddFolderToProject` by `David Gerva` [AddFolderToProject-SublimePlugin](https://github.com/DavidGerva/AddFolderToProject-SublimePlugin).
