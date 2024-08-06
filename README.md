@@ -9,6 +9,14 @@
     But then you have to click through all the folders again and again.
 ```
 
+---
+## Note
+
+This package is a `rewrite` of the existing package `AddFolderToProject` by `David Gerva` [AddFolderToProject-SublimePlugin](https://github.com/DavidGerva/AddFolderToProject-SublimePlugin).
+Further information can be found here: [Rewrite](#rewrite)
+
+---
+
 | Repository | GitHub | Sublime / Package Control |
 | ------ | ------ | ------ |
 | ![GitHub release (latest by date)](https://img.shields.io/github/v/release/dennykorsukewitz/Sublime-AddFolderToProject) | ![GitHub open issues](https://img.shields.io/github/issues/dennykorsukewitz/Sublime-AddFolderToProject) ![GitHub closed issues](https://img.shields.io/github/issues-closed/dennykorsukewitz/Sublime-AddFolderToProject?color=#44CC44) | ![Package Control](https://img.shields.io/packagecontrol/dt/AddFolderToProject) |
@@ -227,6 +235,20 @@ git clone git@github.com:dennykorsukewitz/Sublime-AddFolderToWorkspace.git AddFo
 ## Download
 
 For download see [Sublime-AddFolderToProject](https://github.com/dennykorsukewitz/Sublime-AddFolderToProject/releases)
+
+---
+
+## Rewrite
+
+The rewrite was made for the following reasons:
+
+- [AddFolderToProject-SublimePlugin](https://github.com/DavidGerva/AddFolderToProject-SublimePlugin) has not been maintained since 09/02/2015.
+- Issues and PullRequest were not further processed. Now all known issues are fixed.
+- New functions and the old functions from David Gerva have been compiled and revised.
+
+With David's permission, we have now [changed the source](https://github.com/wbond/package_control_channel/pull/8904) of the package to this repository so that we can continue to offer the functionality to users of this package.
+
+`Many thanks to David Gerva for his wonderful work! ❤️ Open Source ❤️`
 
 ---
 
