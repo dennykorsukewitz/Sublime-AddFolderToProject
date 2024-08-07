@@ -15,8 +15,8 @@ With David's permission, we have now [changed the source](https://github.com/wbo
 
 `Many thanks to David Gerva for his wonderful work! ❤️ Open Source ❤️`
 
-Changes
-=======
+Feature List
+============
 
  - Add Folder to Project: This function provides a searchable list of folders that can be added to the current project. The list consists of absolute paths and recursive paths.
  - Remove Folder from Project: This function provides a list of active folders in the project, that can be removed from the current project.
