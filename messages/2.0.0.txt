@@ -32,16 +32,18 @@ Breaking Changes
 
 - Changed sublime commands (command palette)
 
-    old command                       => new command
-    -----------------------------------------------------------------------
-    list_folder_to_add                => add_folder_to_project
-    remove_actual_folder_from_project => remove_folder_from_project
-                                      => add_custom_folder_to_project       (🌟 new 🌟)
-    add_actual_folder_to_project      => add_current_folder_to_project
-                                      => remove_current_folder_from_project (🌟 new 🌟)
-    create_project_from_file          => create_project_from_file
-    copy_file_path                    => copy_file_path
-    copy_dir_path                     => copy_dir_path
+    |old command                        | new command |
+    |-|-|
+    | list_folder_to_add                | add_folder_to_project                          |
+    | remove_actual_folder_from_project | remove_folder_from_project                     |
+    |                                   | add_custom_folder_to_project       (🌟 new 🌟) |
+    | add_actual_folder_to_project      | add_current_folder_to_project                  |
+    |                                   | remove_current_folder_from_project (🌟 new 🌟) |
+    | create_project_from_file          | create_project_from_file                       |
+    | copy_file_path                    | copy_file_path                                 |
+    | copy_dir_path                     | copy_dir_path                                  |
+
+---
 
 GitHub link - https://github.com/dennykorsukewitz/Sublime-AddFolderToProject
 
