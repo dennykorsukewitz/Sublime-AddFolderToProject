@@ -1,0 +1,50 @@
+🌟 Version 2.0.0 🌟
+
+This `new` version is a `rewrite` of the existing package `AddFolderToProject` by `David Gerva` [AddFolderToProject-SublimePlugin](https://github.com/DavidGerva/AddFolderToProject-SublimePlugin).
+
+Rewrite
+=======
+
+The rewrite was made for the following reasons:
+
+- [AddFolderToProject-SublimePlugin](https://github.com/DavidGerva/AddFolderToProject-SublimePlugin) has not been maintained since 09/02/2015.
+- Issues and PullRequest were not further processed. Now all known issues are fixed.
+- New functions and the old functions from David Gerva have been compiled and revised.
+
+With David's permission, we have now [changed the source](https://github.com/wbond/package_control_channel/pull/8904) of the package to this repository so that we can continue to offer the functionality to users of this package.
+
+`Many thanks to David Gerva for his wonderful work! ❤️ Open Source ❤️`
+
+Changes
+=======
+
+ - Add Folder to Project: This function provides a searchable list of folders that can be added to the current project. The list consists of absolute paths and recursive paths.
+ - Remove Folder from Project: This function provides a list of active folders in the project, that can be removed from the current project.
+ - Add Custom Folder to Project: This function allows you to add a custom folder (absolute path) to the project.
+ - Add this Folder to Project: This function adds the folder of the current open file to the project.
+ - Remove this Folder from Project: This function removes the folder of the current open file from the project.
+ - Create Project from File: This function creates a new project (new sublime window) with the folder of the current open file.
+ - Copy File Path: This function copies the file path of the current open file.
+ - Copy Dir Path: This function copies the directory path of the current open file.
+
+Breaking Changes
+================
+
+- Changed sublime commands (command palette)
+
+    old command                       => new command
+    -----------------------------------------------------------------------
+    list_folder_to_add                => add_folder_to_project
+    remove_actual_folder_from_project => remove_folder_from_project
+                                      => add_custom_folder_to_project       (🌟 new 🌟)
+    add_actual_folder_to_project      => add_current_folder_to_project
+                                      => remove_current_folder_from_project (🌟 new 🌟)
+    create_project_from_file          => create_project_from_file
+    copy_file_path                    => copy_file_path
+    copy_dir_path                     => copy_dir_path
+
+GitHub link - https://github.com/dennykorsukewitz/Sublime-AddFolderToProject
+
+Enjoy!
+
+Your [Denny Korsukéwitz](https://github.com/dennykorsukewitz) 🚀
