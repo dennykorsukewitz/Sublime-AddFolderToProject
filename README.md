@@ -14,7 +14,7 @@
 ## Note
 
 ![Takeover (date)](https://img.shields.io/badge/takeover-07/08/2024-blue)
-![Takeover (downloads)](https://img.shields.io/badge/downloads-17737-green)
+![Takeover (downloads)](https://img.shields.io/badge/downloads-17733-green)
 
 This package is a `rewrite` of the existing package `AddFolderToProject` by `David Gerva` [AddFolderToProject-SublimePlugin](https://github.com/DavidGerva/AddFolderToProject-SublimePlugin).
 
