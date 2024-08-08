@@ -4,10 +4,8 @@
 
 **AddFolderToProject** is a Sublime Text package that streamlines the process of adding and removing folders to and from your projects. It provides a set of commands and context menu options to manage your project's folder structure directly from the editor.
 
-```
     Of course, you can use the already built-in function (Project -> Add Folder to Project...).
     But then you have to click through all the folders again and again.
-```
 
 ---
 
