@@ -180,27 +180,21 @@ Download latest [sublime-package file](https://github.com/dennykorsukewitz/Subli
 
 #### OSX
 
-```bash
-cd ~/Library/Application\ Support/Sublime\ Text\ 2/Installed Packages/
-- or ST 3 -
-cd ~/Library/Application\ Support/Sublime\ Text\ 3/Installed Packages/
-```
+    cd ~/Library/Application\ Support/Sublime\ Text\ 2/Installed Packages/
+    - or ST 3 -
+    cd ~/Library/Application\ Support/Sublime\ Text\ 3/Installed Packages/
 
 #### Linux
 
-```bash
-cd ~/.config/sublime-text-2/Installed Packages
-- or ST 3 -
-cd ~/.config/sublime-text-3/Installed Packages
-```
+    cd ~/.config/sublime-text-2/Installed Packages
+    - or ST 3 -
+    cd ~/.config/sublime-text-3/Installed Packages
 
 #### Windows
 
-```bash
-cd "%APPDATA%\Sublime Text 2\Installed Packages"
-- or ST 3 -
-cd "%APPDATA%\Sublime Text 3\Installed Packages"
-```
+    cd "%APPDATA%\Sublime Text 2\Installed Packages"
+    - or ST 3 -
+    cd "%APPDATA%\Sublime Text 3\Installed Packages"
 
 ### 3. Source code
 
@@ -208,30 +202,24 @@ Clone the latest [dev branch](https://github.com/dennykorsukewitz/Sublime-AddFol
 
 #### OSX
 
-```bash
-cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
-- or ST 3 -
-cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
-git clone git@github.com:dennykorsukewitz/Sublime-AddFolderToWorkspace.git AddFolderToProject
-```
+    cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
+    - or ST 3 -
+    cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
+    git clone git@github.com:dennykorsukewitz/Sublime-AddFolderToWorkspace.git AddFolderToProject
 
 #### Linux
 
-```bash
-cd ~/.config/sublime-text-2/Packages
-- or ST 3 -
-cd ~/.config/sublime-text-3/Packages
-git clone git@github.com:dennykorsukewitz/Sublime-AddFolderToWorkspace.git AddFolderToProject
-```
+    cd ~/.config/sublime-text-2/Packages
+    - or ST 3 -
+    cd ~/.config/sublime-text-3/Packages
+    git clone git@github.com:dennykorsukewitz/Sublime-AddFolderToWorkspace.git AddFolderToProject
 
 #### Windows
 
-```bash
-cd "%APPDATA%\Sublime Text 2\Packages"
-- or ST 3 -
-cd "%APPDATA%\Sublime Text 3\Packages"
-git clone git@github.com:dennykorsukewitz/Sublime-AddFolderToWorkspace.git AddFolderToProject
-```
+    cd "%APPDATA%\Sublime Text 2\Packages"
+    - or ST 3 -
+    cd "%APPDATA%\Sublime Text 3\Packages"
+    git clone git@github.com:dennykorsukewitz/Sublime-AddFolderToWorkspace.git AddFolderToProject
 
 ---
 
