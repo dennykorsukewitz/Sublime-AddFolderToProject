@@ -4,7 +4,7 @@
 
 **AddFolderToProject** is a Sublime Text package that streamlines the process of adding and removing folders to and from your projects. It provides a set of commands and context menu options to manage your project's folder structure directly from the editor.
 
-```markdown
+```
     Of course, you can use the already built-in function (Project -> Add Folder to Project...).
     But then you have to click through all the folders again and again.
 ```
@@ -13,17 +13,21 @@
 
 ## Note
 
+![Takeover (date)](https://img.shields.io/badge/takeover-07/08/2024-blue)
+![Takeover (downloads)](https://img.shields.io/badge/downloads-17737-green)
+
 This package is a `rewrite` of the existing package `AddFolderToProject` by `David Gerva` [AddFolderToProject-SublimePlugin](https://github.com/DavidGerva/AddFolderToProject-SublimePlugin).
+
 Further information can be found here: [Rewrite](#rewrite)
 
 ---
 
 | Repository | GitHub | Sublime / Package Control |
 | ------ | ------ | ------ |
-| ![GitHub release (latest by date)](https://img.shields.io/github/v/release/dennykorsukewitz/Sublime-AddFolderToProject) | ![GitHub open issues](https://img.shields.io/github/issues/dennykorsukewitz/Sublime-AddFolderToProject) ![GitHub closed issues](https://img.shields.io/github/issues-closed/dennykorsukewitz/Sublime-AddFolderToProject?color=#44CC44) | ![Package Control](https://img.shields.io/packagecontrol/dt/AddFolderToProject) |
-| ![GitHub license](https://img.shields.io/github/license/dennykorsukewitz/Sublime-AddFolderToProject) | ![GitHub pull requests](https://img.shields.io/github/issues-pr/dennykorsukewitz/Sublime-AddFolderToProject?label=PR) ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/dennykorsukewitz/Sublime-AddFolderToProject?color=g&label=PR) | ![Package Control](https://img.shields.io/packagecontrol/dm/AddFolderToProject) |
-| ![GitHub language count](https://img.shields.io/github/languages/count/dennykorsukewitz/Sublime-AddFolderToProject?style=flat&label=language)  | ![GitHub contributors](https://img.shields.io/github/contributors/dennykorsukewitz/Sublime-AddFolderToProject) | ![Package Control](https://img.shields.io/packagecontrol/dw/AddFolderToProject) |
-| ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/dennykorsukewitz/Sublime-AddFolderToProject)  | ![GitHub downloads](https://img.shields.io/github/downloads/dennykorsukewitz/Sublime-AddFolderToProject/total?style=flat) | ![Package Control](https://img.shields.io/packagecontrol/dd/AddFolderToProject) |
+| ![GitHub release (latest by date)](https://img.shields.io/github/v/release/dennykorsukewitz/Sublime-AddFolderToProject) | ![GitHub open issues](https://img.shields.io/github/issues/dennykorsukewitz/Sublime-AddFolderToProject) ![GitHub closed issues](https://img.shields.io/github/issues-closed/dennykorsukewitz/Sublime-AddFolderToProject?color=#44CC44) | ![Package Control](https://img.shields.io/packagecontrol/dt/Add%20Folder%20To%20Project) |
+| ![GitHub license](https://img.shields.io/github/license/dennykorsukewitz/Sublime-AddFolderToProject) | ![GitHub pull requests](https://img.shields.io/github/issues-pr/dennykorsukewitz/Sublime-AddFolderToProject?label=PR) ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/dennykorsukewitz/Sublime-AddFolderToProject?color=g&label=PR) | ![Package Control](https://img.shields.io/packagecontrol/dm/Add%20Folder%20To%20Project) |
+| ![GitHub language count](https://img.shields.io/github/languages/count/dennykorsukewitz/Sublime-AddFolderToProject?style=flat&label=language)  | ![GitHub contributors](https://img.shields.io/github/contributors/dennykorsukewitz/Sublime-AddFolderToProject) | ![Package Control](https://img.shields.io/packagecontrol/dw/Add%20Folder%20To%20Project) |
+| ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/dennykorsukewitz/Sublime-AddFolderToProject)  | ![GitHub downloads](https://img.shields.io/github/downloads/dennykorsukewitz/Sublime-AddFolderToProject/total?style=flat) | ![Package Control](https://img.shields.io/packagecontrol/dd/Add%20Folder%20To%20Project) |
 
 | Status |
 | ------ |
