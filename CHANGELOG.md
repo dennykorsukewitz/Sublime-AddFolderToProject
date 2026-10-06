@@ -10,6 +10,7 @@ All notable changes to the "AddFolderToProject" package will be documented in th
 - `CreateProjectFromFile.run` uses `paths=None` instead of a mutable default argument.
 - Readme icon includes `alt` text.
 - Dependabot GitHub Actions updates run monthly with a 7-day cooldown.
+- Default `add_folder_to_project_folders` is an empty list instead of `/Users`, so extra macOS paths no longer appear on Windows.
 
 ### Fixed
 

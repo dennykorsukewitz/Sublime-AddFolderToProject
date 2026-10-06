@@ -159,7 +159,7 @@ The following functions are available in the Sidebar menu:
 
 | Name | Description | Default Value |
 | - | - | - |
-| add_folder_to_project_folders | Provides a searchable list of folders that can be added to the current project. | `/Users/dennykorsukewitz/` |
+| add_folder_to_project_folders | Provides a searchable list of folders that can be added to the current project. For example: `/Users/dennykorsukewitz/` | `` |
 | add_folder_to_project_recursive_folders | Provides a searchable (only first level) list of folders (recursive) that can be added to the current project. For example: "/Users/" - adds "/Users/dennykorsukewitz/" to list. | `` |
 
 ---
