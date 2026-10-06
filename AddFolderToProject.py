@@ -93,13 +93,11 @@ class Folder:
         """
         project_data = self.window.project_data()
 
-        index = 0
-        for folder in project_data["folders"]:
+        for index, folder in enumerate(project_data["folders"]):
             if folder["path"] and self._paths_same(dirPath, folder["path"]):
                 del project_data["folders"][index]
                 self.window.set_project_data(project_data)
                 return True
-            index += 1
 
     def exists(self, dirPath):
         """
@@ -155,17 +153,13 @@ class Folder:
                 folders += [
                     folder + name
                     for name in os.listdir(folder)
-                    if os.path.isdir(os.path.join(folder, name))
-                    and (folder + name) not in folders
+                    if os.path.isdir(os.path.join(folder, name)) and (folder + name) not in folders
                 ]
 
         folders = [
             folder
             for folder in folders
-            if not any(
-                active and self._paths_same(folder, active)
-                for active in active_folders
-            )
+            if not any(active and self._paths_same(folder, active) for active in active_folders)
         ]
 
         return folders
@@ -384,9 +378,7 @@ class SaveFolderInSettings(sublime_plugin.WindowCommand):
             flags=32,
             selected_index=-1,
             on_highlight=None,
-            placeholder=(
-                "AddFolderToProject: Should I save the new folder in the settings?"
-            ),
+            placeholder=("AddFolderToProject: Should I save the new folder in the settings?"),
         )
 
     @staticmethod

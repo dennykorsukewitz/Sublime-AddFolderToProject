@@ -4,7 +4,7 @@
 
 - Refactored `AddFolderToProject.py` for readability (formatting, removed unused class-level folder lists).
 - `CreateProjectFromFile.run` uses `paths=None` instead of a mutable default argument.
-- README icon includes `alt` text.
+- Readme icon includes `alt` text.
 - Dependabot GitHub Actions updates run monthly with a 7-day cooldown.
 
 ## Fixed
