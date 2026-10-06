@@ -90,9 +90,7 @@ class Folder:
 
         if project_data:
             for folder in project_data["folders"]:
-                if folder["path"] and os.path.samefile(
-                    dirPath, folder["path"]
-                ):  # noqa: E501
+                if folder["path"] and os.path.samefile(dirPath, folder["path"]):
                     return True
 
         return False
@@ -118,14 +116,10 @@ class Folder:
                 dir_path = dir_path[:position]
 
         absolute_folders = settings.get("add_folder_to_project_folders")
-        recursive_folders = settings.get(
-            "add_folder_to_project_recursive_folders"
-        )  # noqa: E501
+        recursive_folders = settings.get("add_folder_to_project_recursive_folders")
 
         if absolute_folders is not None:
-            folders += [
-                folder for folder in absolute_folders if folder not in folders
-            ]  # noqa: E501
+            folders += [folder for folder in absolute_folders if folder not in folders]
 
         if recursive_folders is not None:
             for folder in recursive_folders:
@@ -138,9 +132,7 @@ class Folder:
                     and (folder + name) not in folders
                 ]
 
-        folders = [
-            folder for folder in folders if folder not in active_folders
-        ]  # noqa: E501
+        folders = [folder for folder in folders if folder not in active_folders]
 
         return folders
 
@@ -168,8 +160,6 @@ class AddFolderToProject(sublime_plugin.WindowCommand):
     "Add Folder to Project"
     Command to add a folder to the project. "Add Folder to Project"
     """
-
-    folders = []
 
     def run(self):
         """
@@ -218,8 +208,6 @@ class RemoveFolderFromProject(sublime_plugin.WindowCommand):
     "Remove Folder from Project"
     Command to remove a folder from the project.
     """
-
-    folders = []
 
     def run(self):
         """
@@ -362,7 +350,9 @@ class SaveFolderInSettings(sublime_plugin.WindowCommand):
             flags=32,
             selected_index=-1,
             on_highlight=None,
-            placeholder="AddFolderToProject: Should I save the new folder in the settings?",  # noqa: E501
+            placeholder=(
+                "AddFolderToProject: Should I save the new folder in the settings?"
+            ),
         )
 
     @staticmethod
@@ -422,7 +412,7 @@ class CreateProjectFromFile(sublime_plugin.WindowCommand):
     Command to create a project from a file.
     """
 
-    def run(self, paths=[]):
+    def run(self, paths=None):
         """
         Run the command.
 

@@ -1,6 +1,6 @@
 # AddFolderToProject
 
-<img align="right" width="150" height="150" src="doc/images/icon.png">
+<img align="right" width="150" height="150" alt="AddFolderToProject" src="doc/images/icon.png">
 
 **AddFolderToProject** is a Sublime Text package that streamlines the process of adding and removing folders to and from your projects. It provides a set of commands and context menu options to manage your project's folder structure directly from the editor.
 

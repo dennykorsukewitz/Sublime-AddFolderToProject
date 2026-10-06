@@ -10,7 +10,7 @@
 
 ## Changed
 
-- Package rewrite with updated README; Package Control source moved to this repository (with David Gerva’s permission).
+- Package rewrite with updated readme; Package Control source moved to this repository (with David Gerva’s permission).
 
 ## Fixed
 
