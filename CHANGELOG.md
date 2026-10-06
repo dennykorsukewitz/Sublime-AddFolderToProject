@@ -1,0 +1,52 @@
+# Changelog
+
+All notable changes to the "AddFolderToProject" package will be documented in this file.
+
+## [2.0.0]
+
+### Breaking
+
+- Renamed Sublime commands (see [RELEASE.md](RELEASE.md) for the old → new mapping).
+
+### Added
+
+- Add Folder to Project: searchable list of folders (absolute and recursive paths) to add to the current project.
+- Remove Folder from Project: list of active project folders that can be removed.
+- Add Custom Folder to Project: add a folder by absolute path.
+- Add this Folder to Project: add the folder of the current open file.
+- Remove this Folder from Project: remove the folder of the current open file.
+- Create Project from File: new Sublime window with a project for the current file’s folder.
+- Copy File Path and Copy Dir Path for the current open file.
+
+### Changed
+
+- Updated README.md.
+- Rewrite of [AddFolderToProject-SublimePlugin](https://github.com/DavidGerva/AddFolderToProject-SublimePlugin) with refactored and revised functions.
+
+### Fixed
+
+- Captions conflict.
+
+## [1.1.1]
+
+### Fixed
+
+- Corrected behavior when no project is already opened.
+
+## [1.1.0]
+
+### Added
+
+- Command **Create Project from File** (new project window with the file’s directory).
+
+### Changed
+
+- Fixed menu item visibility for files without a physical path; prompts for a custom path when needed.
+- Directories already in the project are omitted from the add list.
+- Context menu shows **Remove this Folder from Project** when the file’s directory is already in the project.
+
+## [1.0.0]
+
+### Added
+
+- First release.
