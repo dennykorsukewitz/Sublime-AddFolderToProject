@@ -2,7 +2,7 @@
 
 All notable changes to the "AddFolderToProject" package will be documented in this file.
 
-## [2.1.0]
+## [2.1.0] - 2026-10-07
 
 ### Changed
 
