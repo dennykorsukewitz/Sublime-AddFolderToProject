@@ -1,17 +1,12 @@
-# [2.0.0] - 2024-08-08
-
-## Breaking
-
-- Renamed command palette entries: `list_folder_to_add` → `add_folder_to_project`, `remove_actual_folder_from_project` → `remove_folder_from_project`, `add_actual_folder_to_project` → `add_current_folder_to_project`, plus new commands `add_custom_folder_to_project` and `remove_current_folder_from_project`.
-
-## Added
-
-- Searchable add/remove folder workflows, custom path, current-file folder actions, create project from file, copy file/dir path (see [README.md](README.md)).
+# [2.1.0]
 
 ## Changed
 
-- Package rewrite with updated readme; Package Control source moved to this repository (with David Gerva’s permission).
+- Refactored `AddFolderToProject.py` for readability (formatting, removed unused class-level folder lists).
+- `CreateProjectFromFile.run` uses `paths=None` instead of a mutable default argument.
+- README icon includes `alt` text.
+- Dependabot GitHub Actions updates run monthly with a 7-day cooldown.
 
 ## Fixed
 
-- Captions conflict.
+- **Add Folder to Project** parent-folder list walks paths with `os.path.dirname()` so Windows ends at the drive root (`C:\`) instead of bare `C:`, and Unix paths list all ancestors. Thanks to @dpc00 ([#2](https://github.com/dennykorsukewitz/Sublime-AddFolderToProject/issues/2)).

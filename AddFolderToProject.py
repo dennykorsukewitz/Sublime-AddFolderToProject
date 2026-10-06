@@ -112,8 +112,10 @@ class Folder:
             dir_path = os.path.dirname(file_path)
             while os.path.isdir(dir_path):
                 folders.append(dir_path)
-                position = dir_path.rfind("\\")
-                dir_path = dir_path[:position]
+                parent = os.path.dirname(dir_path)
+                if parent == dir_path:
+                    break
+                dir_path = parent
 
         absolute_folders = settings.get("add_folder_to_project_folders")
         recursive_folders = settings.get("add_folder_to_project_recursive_folders")
