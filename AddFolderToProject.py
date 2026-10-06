@@ -22,6 +22,32 @@ class Folder:
     def __init__(self, window):
         self.window = window
 
+    def _project_base_dir(self):
+        project_file = self.window.project_file_name()
+        if project_file:
+            return os.path.dirname(project_file)
+        return None
+
+    def _resolve_folder_path(self, folder_path):
+        if not folder_path:
+            return folder_path
+        if os.path.isabs(folder_path):
+            return os.path.normpath(folder_path)
+        project_base = self._project_base_dir()
+        if project_base:
+            return os.path.normpath(os.path.join(project_base, folder_path))
+        return os.path.normpath(folder_path)
+
+    def _paths_same(self, path_a, path_b):
+        resolved_a = self._resolve_folder_path(path_a)
+        resolved_b = self._resolve_folder_path(path_b)
+        if not resolved_a or not resolved_b:
+            return False
+        try:
+            return os.path.samefile(resolved_a, resolved_b)
+        except OSError:
+            return os.path.normcase(resolved_a) == os.path.normcase(resolved_b)
+
     def add(self, dir_path):
         """
         Add a folder to the project.
@@ -69,12 +95,11 @@ class Folder:
 
         index = 0
         for folder in project_data["folders"]:
-            if folder["path"]:
-                if os.path.samefile(dirPath, folder["path"]):
-                    del project_data["folders"][index]
-                    self.window.set_project_data(project_data)
-                    return True
-                index = index + 1
+            if folder["path"] and self._paths_same(dirPath, folder["path"]):
+                del project_data["folders"][index]
+                self.window.set_project_data(project_data)
+                return True
+            index += 1
 
     def exists(self, dirPath):
         """
@@ -90,7 +115,7 @@ class Folder:
 
         if project_data:
             for folder in project_data["folders"]:
-                if folder["path"] and os.path.samefile(dirPath, folder["path"]):
+                if folder["path"] and self._paths_same(dirPath, folder["path"]):
                     return True
 
         return False
@@ -134,7 +159,14 @@ class Folder:
                     and (folder + name) not in folders
                 ]
 
-        folders = [folder for folder in folders if folder not in active_folders]
+        folders = [
+            folder
+            for folder in folders
+            if not any(
+                active and self._paths_same(folder, active)
+                for active in active_folders
+            )
+        ]
 
         return folders
 

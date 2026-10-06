@@ -1,5 +1,6 @@
 🌟 Version 2.1.0 🌟
 
+- **Remove Folder from Project** resolves relative project folder paths (for example `sub` or `.`) against the project file so removal works without `FileNotFoundError`. Thanks to @dpc00 ([#1](https://github.com/dennykorsukewitz/Sublime-AddFolderToProject/issues/1)).
 - **Add Folder to Project** parent-folder list walks paths correctly on Windows (drive root `C:\` instead of bare `C:`) and lists all ancestors on Linux and macOS. Thanks to @dpc00 ([#2](https://github.com/dennykorsukewitz/Sublime-AddFolderToProject/issues/2)).
 - Refactored plugin code for readability; `CreateProjectFromFile` no longer uses a mutable default argument for `paths`.
 

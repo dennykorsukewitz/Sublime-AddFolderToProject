@@ -7,6 +7,7 @@ All notable changes to the "AddFolderToProject" package will be documented in th
 Version 2.1.0
 - Refactored AddFolderToProject.py for readability; CreateProjectFromFile.run uses paths=None instead of mutable default.
 - Updated README icon alt text.
+- [Fixed] Remove Folder from Project resolves relative project paths against the project file (Thanks to @dpc00).
 - [Fixed] Add Folder to Project parent-folder list uses os.path.dirname() (Windows drive root, Unix ancestors). Thanks to @dpc00.
 
 Version 2.0.0
